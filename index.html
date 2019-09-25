@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBLQrLj8e2WVVdUaykDlfX9LKUMa7wdCCc"></script>
+    <title>Reno</title>
+</head>
+
+<body>
+    <div class="forma_sale" id="section__form">
+        <div class="forma_block">
+            <form>
+                <img onclick="off()" class="close-btn" src="assets/img/cancel.png" alt="close">
+                <p class="trade-form-title sale_form-text">Купить с выгодой</p>
+                <input class="trade-form-tel width_form" type="tel" name="tel" placeholder="Ваш телефон">
+                <p><input class="btn btn-form sale" type="submit" value="Отправить"></p>
+                <input class="form_check-1" type="checkbox" id="horns" name="horns">
+                <label class="form_check" for="horns">Я согласен на обработку персональных данных</label>
+            </form>
+        </div>
+    </div>
+    <div class="position_fixed">
+        <div class="header">
+            <div class="header-mobile">
+                <div class="burger_menu">
+                    <button class="nav-toggle" id="nav_toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
+                    </button></div>
+                <div class="header_title">
+                    <h2>РЕНО ЦЕНТР</h2>
+                    <h2> МИН-ВОДЫ</h2>
+                </div>
+                <div class="header_img_logo">
+                    <img src="assets/img/renault-logo-mobile.svg" alt="logo-mobile">
+                </div>
+            </div>
+            <div class="container">
+                <div class="header_block">
+                    <div class="header_item">
+                        <img src="assets/img/logo-renault.png" alt="">
+                    </div>
+                    <div class="header_item header_item-width">
+                        <p class="address"><img class="point" src="assets/img/point.png" alt=""> Минераловодский район,
+                            Автодорога Кавказ,
+                            344 км Пн.-Вс. с 9:00 до 20:00</p>
+
+                    </div>
+                    <div class="header_item">
+                        <a class="btn btn-none callback" href="#">Заказать звонок</a>
+                    </div>
+                    <div class="header_item phone">
+                        <p class="phone"><img class="phone_icon" src="assets/img/phone.png" alt="phone">+7(87922)30-490
+                        </p>
+                    </div>
+                    <div class="header_item">
+                        <p><img src="assets/img/logo-1.jpg" alt="logo"> <span class="logo_main">Рено Центр</span></p>
+                        <p><span class="logo_sup">Минеральные воды</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="container container-no active">
+                <nav>
+                    <a href="#" data-scroll="#action">Акция</a>
+                    <a href="#" data-scroll="#model">Автомобили в наличии</a>
+                    <a href="#" data-scroll="#special">Преимущества</a>
+                    <a href="#" data-scroll="#contacts">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="intro" id="action">
+        <div class="container">
+            <div class="intro_block">
+                <div class="intro_header">
+                    <h3>Распродажа склада Renault 2019 года</h3>
+                    <h3>Весь модельный ряд Renault с ПТС в наличии</h3>
+                    <h2>С выгодой до 365000 рублей</h2>
+                    <a class="btn btn-intro" href="#">Узнать подробнее</a>
+                </div>
+                <div class="intro_item">
+                    <p>Новый <span>Logan</span> от <strong>4900</strong> руб./мес.<sup>2</sup></p>
+                    <p><span>Duster</span> от <strong>4900</strong> руб./мес.<sup>3</sup></p>
+                    <p><span>Kapture</span> от <strong>4900</strong> руб./мес.<sup>4</sup></p>
+                    <p>Новый <span>Koleos</span> от <strong>4900</strong> руб./мес.<sup>5</sup></p>
+                    <p>Новый <span>Sandero</span> от <strong>4900</strong> руб./мес.<sup>2</sup></p>
+                    <p><span>Sandero</span> Stepway от <strong>4900</strong> руб./мес.<sup>2</sup></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <div class="container">
+            <div class="back_block">
+                <div class="back_item">
+                    <h2>Возвращение госпрограммы в июле!</h2>
+                    <p>Выгода на покупку нового Renault <span>10%</span> = экономия до <span>100 000</span> руб..
+                        Предложение ограничено госбюджетом – всего 3 млрд. рублей на Россию. Не упустите возможность
+                        максимальной выгоды.</p>
+                    <a class="btn btn-width" href="#">Стань участником программы</a>
+                </div>
+                <div class="back_item slider">
+                    <div>
+                        <img class="back_img" src="assets/img/back/arkana-1.png" alt="car">
+                    </div>
+                    <div>
+                        <img class="back_img" src="assets/img/back/duster.png" alt="car">
+                    </div>
+                    <div>
+                        <img class="back_img" src="assets/img/back/kaptur.png" alt="car">
+                    </div>
+                    <div>
+                        <img class="back_img" src="assets/img/back/logan-stepway.png" alt="car">
+                    </div>
+                    <div>
+                        <img class="back_img" src="assets/img/back/logan.png" alt="car">
+                    </div>
+                    <div>
+                        <img class="back_img" src="assets/img/back/sandero-stepway.png" alt="car">
+                    </div>
+                    <div>
+                        <img class="back_img" src="assets/img/back/sandero.png" alt="car">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="container">
+            <div class="offer_block">
+                <h2><span>Renault в кредит</span> по программе <span>«Поехали!»</span> от Renault Finance<sup>1</sup>
+                </h2>
+                <div class="offer_item">
+                    <p>Получи максимальную <span>выгоду</span> при покупке нового Renault в кредит!</p>
+                    <p>Плати минимум в месяц и меняй авто каждые два-три года с программой «Поехали!»</p>
+                    <a class="btn btn-offer" href="#">Получить выгоду</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="model" id="model">
+        <div class="container">
+            <h2>Выберите модель, а мы предложим лучшие условия!</h2>
+            <a class="model_link active-underline" href="#">Все модели</a>
+            <a class="model_link" href="#">Duster</a>
+            <a class="model_link" href="#">Sandero</a>
+            <a class="model_link" href="#">Kapture</a>
+            <a class="model_link" href="#">Arkana</a>
+            <div class="model_block model_block-mt" data-model='Duster'>
+                <img class="model_img" src="assets/img/model-1.png" alt="#">
+                <div class="model_item model_item-order-1">
+                    <p class="model_model-p">Duster</p>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-sup">Год выпуска:</p>
+                        <p class="model_config-sup">Двигатель:</p>
+                        <p class="model_config-sup">КПП:</p>
+                        <p class="model_config-sup">Привод:</p>
+                        <p class="model_config-sup">Цвет:</p>
+                    </div>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-options">2019</p>
+                        <p class="model_config-options">1,6</p>
+                        <p class="model_config-options">Автомат</p>
+                        <p class="model_config-options">Передний</p>
+                        <p class="model_config-options">Черный</p>
+                    </div>
+                </div>
+                <div class="model_item model_item-block  model_item-order-2">
+                    <div class="model_item-text">
+                        <div class="price">
+                            <p>стоимость</p>
+                            <p class="price-text"><span>410000</span> руб.</p>
+                        </div>
+                        <div class="price">
+                            <p class="model-text-none">ежемесячно</p>
+                            <p class="price-text price-text-2"><span>10531</span> руб./мес.</p>
+                        </div>
+
+                    </div>
+                    <p class="price-2">Выгода по траде-ин 50000руб.</p>
+                    <p class="price-2">В кредит 3.9% годовых</p>
+                    <a class="btn btn-model" href="#">Узнать свою выгоду</a>
+                </div>
+            </div>
+            <div class="model_block model_block-mt" data-model='Sandero'>
+                <img class="model_img" src="assets/img/model-1.png" alt="#">
+                <div class="model_item model_item-order-1">
+                    <p class="model_model-p">Sandero</p>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-sup">Год выпуска:</p>
+                        <p class="model_config-sup">Двигатель:</p>
+                        <p class="model_config-sup">КПП:</p>
+                        <p class="model_config-sup">Привод:</p>
+                        <p class="model_config-sup">Цвет:</p>
+                    </div>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-options">2019</p>
+                        <p class="model_config-options">1,6</p>
+                        <p class="model_config-options">Автомат</p>
+                        <p class="model_config-options">Передний</p>
+                        <p class="model_config-options">Черный</p>
+                    </div>
+                </div>
+                <div class="model_item model_item-block  model_item-order-2">
+                    <div class="model_item-text">
+                        <div class="price">
+                            <p>стоимость</p>
+                            <p class="price-text"><span>410000</span> руб.</p>
+                        </div>
+                        <div class="price">
+                            <p class="model-text-none">ежемесячно</p>
+                            <p class="price-text price-text-2"><span>10531</span> руб./мес.</p>
+                        </div>
+
+                    </div>
+                    <p class="price-2">Выгода по траде-ин 50000руб.</p>
+                    <p class="price-2">В кредит 3.9% годовых</p>
+                    <a class="btn btn-model" href="#">Узнать свою выгоду</a>
+                </div>
+            </div>
+            <div class="model_block model_block-mt" data-model='Kapture'>
+                <img class="model_img" src="assets/img/model-1.png" alt="#">
+                <div class="model_item model_item-order-1">
+                    <p class="model_model-p">Kapture</p>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-sup">Год выпуска:</p>
+                        <p class="model_config-sup">Двигатель:</p>
+                        <p class="model_config-sup">КПП:</p>
+                        <p class="model_config-sup">Привод:</p>
+                        <p class="model_config-sup">Цвет:</p>
+                    </div>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-options">2019</p>
+                        <p class="model_config-options">1,6</p>
+                        <p class="model_config-options">Автомат</p>
+                        <p class="model_config-options">Передний</p>
+                        <p class="model_config-options">Черный</p>
+                    </div>
+                </div>
+                <div class="model_item model_item-block  model_item-order-2">
+                    <div class="model_item-text">
+                        <div class="price">
+                            <p>стоимость</p>
+                            <p class="price-text"><span>410000</span> руб.</p>
+                        </div>
+                        <div class="price">
+                            <p class="model-text-none">ежемесячно</p>
+                            <p class="price-text price-text-2"><span>10531</span> руб./мес.</p>
+                        </div>
+
+                    </div>
+                    <p class="price-2">Выгода по траде-ин 50000руб.</p>
+                    <p class="price-2">В кредит 3.9% годовых</p>
+                    <a class="btn btn-model" href="#">Узнать свою выгоду</a>
+                </div>
+            </div>
+            <div class="model_block model_block-mt" data-model='Arkana'>
+                <img class="model_img" src="assets/img/model-1.png" alt="#">
+                <div class="model_item model_item-order-1">
+                    <p class="model_model-p">Arkana</p>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-sup">Год выпуска:</p>
+                        <p class="model_config-sup">Двигатель:</p>
+                        <p class="model_config-sup">КПП:</p>
+                        <p class="model_config-sup">Привод:</p>
+                        <p class="model_config-sup">Цвет:</p>
+                    </div>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-options">2019</p>
+                        <p class="model_config-options">1,6</p>
+                        <p class="model_config-options">Автомат</p>
+                        <p class="model_config-options">Передний</p>
+                        <p class="model_config-options">Черный</p>
+                    </div>
+                </div>
+                <div class="model_item model_item-block  model_item-order-2">
+                    <div class="model_item-text">
+                        <div class="price">
+                            <p>стоимость</p>
+                            <p class="price-text"><span>410000</span> руб.</p>
+                        </div>
+                        <div class="price">
+                            <p class="model-text-none">ежемесячно</p>
+                            <p class="price-text price-text-2"><span>10531</span> руб./мес.</p>
+                        </div>
+
+                    </div>
+                    <p class="price-2">Выгода по траде-ин 50000руб.</p>
+                    <p class="price-2">В кредит 3.9% годовых</p>
+                    <a class="btn btn-model" href="#">Узнать свою выгоду</a>
+                </div>
+            </div>
+            <div class="model_block model_block-mt model_block-none" data-model='Arkana'>
+                <img class="model_img" src="assets/img/model-1.png" alt="#">
+                <div class="model_item model_item-order-1">
+                    <p class="model_model-p">Arkana</p>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-sup">Год выпуска:</p>
+                        <p class="model_config-sup">Двигатель:</p>
+                        <p class="model_config-sup">КПП:</p>
+                        <p class="model_config-sup">Привод:</p>
+                        <p class="model_config-sup">Цвет:</p>
+                    </div>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-options">2019</p>
+                        <p class="model_config-options">1,6</p>
+                        <p class="model_config-options">Автомат</p>
+                        <p class="model_config-options">Передний</p>
+                        <p class="model_config-options">Черный</p>
+                    </div>
+                </div>
+                <div class="model_item model_item-block  model_item-order-2">
+                    <div class="model_item-text">
+                        <div class="price">
+                            <p>стоимость</p>
+                            <p class="price-text"><span>410000</span> руб.</p>
+                        </div>
+                        <div class="price">
+                            <p class="model-text-none">ежемесячно</p>
+                            <p class="price-text price-text-2"><span>10531</span> руб./мес.</p>
+                        </div>
+
+                    </div>
+                    <p class="price-2">Выгода по траде-ин 50000руб.</p>
+                    <p class="price-2">В кредит 3.9% годовых</p>
+                    <a class="btn btn-model" href="#">Узнать свою выгоду</a>
+                </div>
+            </div>
+            <div class="model_block model_block-mt  model_block-none" data-model='Arkana'>
+                <img class="model_img" src="assets/img/model-1.png" alt="#">
+                <div class="model_item model_item-order-1">
+                    <p class="model_model-p">Arkana</p>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-sup">Год выпуска:</p>
+                        <p class="model_config-sup">Двигатель:</p>
+                        <p class="model_config-sup">КПП:</p>
+                        <p class="model_config-sup">Привод:</p>
+                        <p class="model_config-sup">Цвет:</p>
+                    </div>
+                    <div class="model_config-1">
+                        <p class="model_config-options-titl">Комплектация</p>
+                        <p class="model_config-options">2019</p>
+                        <p class="model_config-options">1,6</p>
+                        <p class="model_config-options">Автомат</p>
+                        <p class="model_config-options">Передний</p>
+                        <p class="model_config-options">Черный</p>
+                    </div>
+                </div>
+                <div class="model_item model_item-block  model_item-order-2">
+                    <div class="model_item-text">
+                        <div class="price">
+                            <p>стоимость</p>
+                            <p class="price-text"><span>410000</span> руб.</p>
+                        </div>
+                        <div class="price">
+                            <p class="model-text-none">ежемесячно</p>
+                            <p class="price-text price-text-2"><span>10531</span> руб./мес.</p>
+                        </div>
+
+                    </div>
+                    <p class="price-2">Выгода по траде-ин 50000руб.</p>
+                    <p class="price-2">В кредит 3.9% годовых</p>
+                    <a class="btn btn-model" href="#">Узнать свою выгоду</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn-2">
+            <a class="btn btn-model-2" id="next-link-id">показать еще</a>
+        </div>
+    </section>
+    <div class="special" id="special">
+        <div class="container">
+            <div class="special-title">
+                <div class="special-title_block">
+                    <p>специальные предложения</p>
+                </div>
+            </div>
+            <div class="special_block">
+                <div class="special_item">
+                    <img class="special_img" src="assets/img/special/sp1.jpg" alt="img">
+                </div>
+                <div class="special_item special_item-text">
+                    <p class="special_text-1">Получите выгоду до 50 000 рублей по программе trade-in.</p>
+                    <p class="special_text-2">Программа trade-in дает возможность обменять старый автомобиль Renault с
+                        пробегом на новый. Вы можете сдать автомобиль любой марки и любого года выпуска, при этом скидка
+                        по программе суммируется со всеми действующими акциями Renault.</p>
+                    <a class="special_text-link" href="#">ОЦЕНИТЬ АВТОМОБИЛЬ</a>
+                </div>
+            </div>
+            <div class="special_block">
+                <div class="special_item">
+                    <img class="special_img" src="assets/img/special/sp2.png" alt="img">
+                </div>
+                <div class="special_item special_item-text">
+                    <p class="special_text-1">Позвольте себе больше с кредитными программами Renault.</p>
+                    <p class="special_text-2">Опытные сотрудники Дилерского центра Renault Автомания подберут
+                        оптимальный вариант кредитной программы в зависимости от модели машины, размера первого платежа
+                        и срока кредитования. Низкие процентные ставки и сотрудничество только с надежными банками
+                        позволяют нашим клиентам купить авто Renault в кредит, в том числе и без первоначального взноса.
+                    </p>
+                    <a class="special_text-link" href="#">ОСТАВЬ ЗАЯВКУ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="trade">
+        <div class="container">
+            <div class="trade_block">
+                <div class="trade_item">
+                    <img class="trade_item-img" src="assets/img/nidust.png" alt="#">
+                </div>
+                <div class="trade-text">
+                    <h2>ВЫГОДНЫЙ TRADE-IN</h2>
+                    <p>Поменяйте свой старый автомобиль на новый на выгодных условиях. Оставьте заявку на Trade-In и
+                        узнайте предварительную стоимость вашего старого авто.</p>
+                </div>
+                <div class="trade-form">
+                    <form>
+                        <p class="trade-form-title">Ваш телефон*</p>
+                        <input class="trade-form-tel" type="tel" name="tel">
+                        <p><input class="btn btn-form" type="submit" value="Отправить заявку"></p>
+                        <p class="trade-form-small">Нажимая кнопку, вы даете согласие на <a class="trade-form-small-1"
+                                href="#">обработку персональных данных</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map_contacts" id="contacts">
+        <div class="container">
+            <div class="contacts">
+                <div class="contacts_item">
+                    <div class="contacts_logo_block">
+                        <img class="contacts_logo" src="assets/img/logo-111.png" alt="logo">
+                    </div>
+                    <p class="contacts_text-title">Минераловодский район,</p>
+                    <p class="contacts_text">Автодорога Кавказ, 344 км</p>
+                    <p class="contacts_text">Ежедневно с 9:00 до 20:00</p>
+                    <p class="contacts_phone">+7(87922)60040</p>
+                    <a class="btn btn-map callback" href="#">заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+        /**
+         * Отображение google maps
+         */
+
+        function initMap() {
+            // var centerLatLng = new google.maps.LatLng(44.2156276, 43.0776651);
+            var centerLatLng = new google.maps.LatLng(44.2156276, 43.0776651);
+            var mapOptions = {
+                center: centerLatLng,
+                disableDefaultUI: true,
+                zoom: 15,
+                gestureHandling: false,
+                styles: [{
+                        "featureType": "water",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#d3d3d3"
+                        }]
+                    },
+                    {
+                        "featureType": "transit",
+                        "stylers": [{
+                                "color": "#808080"
+                            },
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#b3b3b3"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#ffffff"
+                        }]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "weight": 1.8
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                            "color": "#d7d7d7"
+                        }]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#ebebeb"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry",
+                        "stylers": [{
+                            "color": "#a7a7a7"
+                        }]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#ffffff"
+                        }]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#ffffff"
+                        }]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#efefef"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#696969"
+                        }]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#737373"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.icon",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry.stroke",
+                        "stylers": [{
+                            "color": "#d6d6d6"
+                        }]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "labels.icon",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    },
+                    {},
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#dadada"
+                        }]
+                    }
+                ]
+
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            marker = new google.maps.Marker({
+                position: centerLatLng,
+                map: map,
+                animation: google.maps.Animation.DROP,
+                title: "Hello World!"
+            });
+
+            var contentString = '<div id="content">' +
+                '<div id="siteNotice">' +
+                '</div>' +
+                '<h3 id="firstHeading" class="firstHeading">Ауди Cервис Минеральные Воды</h3>' +
+                '<div id="bodyContent">' +
+                '<p><p>Автодорога Кавказ, 347 километр. </p><p>357200 Минеральные Воды</p></p>' +
+                '</div>' +
+                '</div>';
+
+            infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            function toggleBounce() {
+                if (marker.getAnimation() != null) {
+                    marker.setAnimation(null);
+                } else {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+            }
+
+            google.maps.event.addListener(marker, 'click', function () {
+                toggleBounce();
+                infowindow.open(map, marker);
+                setTimeout(toggleBounce, 1500);
+            });
+
+        }
+        google.maps.event.addDomListener(window, "load", initMap);
+    </script>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_block">
+                <p>Обращаем Ваше внимание на то, что вся представленная на сайте информация, касающаяся комплектаций,
+                    технических характеристик, цветовых сочетаний, а также стоимости автомобилей и сервисного
+                    обслуживания носит информационный характер и ни при каких условиях не является публичной офертой,
+                    определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения
+                    подробной информации, пожалуйста, обращайтесь в наш салон.</p>
+
+                <p>1 * Акция "Поехали". Кредитор – АО «РН Банк». Валюта – рубли. Ежемесячный платеж рассчитан исходя из
+                    рекомендованной цены 689 990 / 701 990 / 735 990 / 722 990 / 709 000 / 944 000 / 1 699 000 / 904 990
+                    р. на Renault LOGAN / SANDERO / LOGAN STEPWAY / SANDERO STEPWAY / DUSTER / KAPTUR / KOLEOS / DOKKER
+                    в комплектации Life (Лайф), 1.6 л, MKП5, 113 л.с. / Life ( Лайф), 1.6 л, MKП5, 113 л.с. / Life
+                    (Лайф) 1.6 л., MKП5, 113 л.с. / Life (Лайф) 1.6 л., MKП5, 82 л.с. / Access (Аксесс), 1.6 л, 4х2,
+                    МКП5, 114 л.с. / Life (Лайф), 1.6 л, 4х2, МКП5б, 114 л.с. / Comfort (Комфорт), 2.0 л, 144 л.с. /
+                    Access (Аксесс), 1.6 л, 82 л.с. Аванс – 354 642 / 363 252 / 379 176 / 378 320 / 376 866 / 508 975 /
+                    904 113 / 482 597 р., cрок кредита – 3 года. Сумма кредита по программе «ПОЕХАЛИ!» – 321 925 / 325
+                    086 / 334 044/ 330 619 / 326 933 / 417 446 / 903 121 / 479 987 р., сумма последнего платежа – 40%
+                    стоимости автомобиля. Ставка в кредитном договоре – 14% годовых на автомобили Renault LOGAN /
+                    SANDERO / LOGAN STEPWAY / SANDERO STEPWAY / DUSTER / KAPTUR и 12,5% на автомобили Renault KOLEOS /
+                    DOKKER годовых. <br>
+                    Сумма кредита по классической программе кредитования – 331 696 / 335 049 / 358 119 / 354 319 / 344
+                    088/ 451 250/ 903 121 / 479 987 р. Обязательно приобретение в кредит услуг: «Разумное КАСКО»
+                    (предоставляет ПАО СК «Росгосстрах», лицензия Банка России на осуществление страхования СИ № 0001 от
+                    23.05.2016, бессрочная; СПАО «ИНГОССТРАХ», лицензия Банка России на осуществление страхования СИ №
+                    0928 от 23.09.2015, бессрочная; ООО «СК «Согласие», лицензия СИ № 1307 от 25.05.2015, бессрочная или
+                    САО «ВСК», лицензия Банка России на осуществление страхования СИ № 0621 от 11.09.2015, бессрочная)
+                    на 1 год, «Защита бюджета» (предоставляет ООО «СК «КАРДИФ», лицензия Банка России на осуществление
+                    страхования СИ № 4104 от 18.07.2018, бессрочная, тариф — 0,15 % в месяц от суммы кредита) на срок
+                    кредита. Обеспечение по кредиту – залог автомобиля. Не является офертой и действительно до
+                    30.06.2019 на новые автомобили 2018 / 2019 года выпуска. Количество автомобилей ограничено.
+                    Подробности по т. 8-800-200-80-80.</p>
+
+                <p>2. Кредитор – АО «РН Банк». Валюта – рубли. Ежемесячный платеж рассчитан исходя из максимальной цены
+                    перепродажи 689 990 / 701 990 / 735 990 / 722 990 р. на Renault LOGAN / SANDERO / LOGAN STEPWAY
+                    /SANDERO STEPWAY в комплектации Life (Лайф), 1.6 л, MKП5, 113 л.с. / Life ( Лайф), 1.6 л, MKП5, 113
+                    л.с. / Life (Лайф) 1.6 л., MKП5, 113 л.с. / Life (Лайф) 1.6 л., MKП5, 82 л.с. <br>
+                    Аванс – 354 642 / 363 252 / 379 176 / 369 963 р., cрок кредита – 3 года. Сумма кредита по программе
+                    «ПОЕХАЛИ!» – 321 925 / 325 086 / 334 044/ 330 619 р., сумма последнего платежа – 40% стоимости
+                    автомобиля. Ставка в кредитном договоре – 14% годовых на автомобили Renault LOGAN / SANDERO / LOGAN
+                    STEPWAY / SANDERO STEPWAY / годовых. Обязательно приобретение в кредит услуг: «Разумное КАСКО»
+                    (предоставляет ПАО СК «Росгосстрах», лицензия Банка России на осуществление страхования СИ № 0001 от
+                    23.05.2016, бессрочная; СПАО «ИНГОССТРАХ», лицензия Банка России на осуществление страхования СИ №
+                    0928 от 23.09.2015, бессрочная; ООО «СК «Согласие», лицензия СИ № 1307 от 25.05.2015, бессрочная или
+                    САО «ВСК», лицензия Банка России на осуществление страхования СИ № 0621 от 11.09.2015, бессрочная)
+                    на 1 год, «Защита бюджета» (предоставляет ООО «СК “КАРДИФ”», лицензия Банка России на осуществление
+                    страхования СИ № 4104 от 18.07.2018, бессрочная, тариф — 0,15 % в месяц от суммы кредита) на срок
+                    кредита. Обеспечение по кредиту – залог автомобиля. Не является офертой и действительно до
+                    30.06.2019 на новые автомобили 2018/2019 года выпуска. Количество автомобилей ограничено.
+                    Подробности по т. 8-800-200-80-80, www.renault.ru.</p>
+
+                <p>2.1 Кредитор — АО «РН Банк» (лицензия Банка России на осуществление банковских операций № 170,
+                    бессрочная). Первоначальный взнос — от 50% цены автомобиля. Условия, определяющие и влияющие на
+                    величину полной стоимости кредита: сумма кредита – от 100 000 рублей; валюта – рубль РФ; срок
+                    кредита – 24-36 месяцев. Ставка в договоре – 13,5% годовых. Разница между рекламируемой ставкой и
+                    ставкой в договоре компенсируется снижением цены на автомобиль. <br>
+                    Обязательно приобретение в кредит услуг: «Защита бюджета» (предоставляет ООО «СК “КАРДИФ”», лицензия
+                    Банка России на осуществление страхования СИ № 4104 от 18.07.2018, бессрочная, тариф — 0,15 % в
+                    месяц от суммы кредита) на срок кредита. По условиям акции «Каско в подарок» - при одновременной
+                    покупке автомобиля Renault LOGAN, Renault SANDERO, Renault LOGAN STEPWAY и Renault SANDERO STEPWAY и
+                    страхового полиса «КАСКО» от 1 до 3х лет (предоставляет ПАО СК «Росгосстрах», лицензия Банка России
+                    на осуществление страхования СИ № 0001 от 23.05.2016, бессрочная; СПАО «ИНГОССТРАХ», лицензия Банка
+                    России на осуществление страхования СИ № 0928 от 23.09.2015, бессрочная; ООО «СК «Согласие»,
+                    лицензия СИ № 1307 от 25.05.2015, бессрочная или САО «ВСК», лицензия Банка России на осуществление
+                    страхования СИ № 0621 от 11.09.2015, бессрочная), покупателю предоставляется соразмерное снижение
+                    цены полной стоимости страхового полиса «Разумное КАСКО», сроком на 1 год. Обеспечение по кредиту –
+                    залог автомобиля. Не является офертой и действительно до 30.06.2019 на новые автомобили 2018/2019
+                    года выпуска. Количество автомобилей ограничено. Подробности по т. 8-800-200-80-80.</p>
+
+                <p>3. Кредитор – АО «РН Банк». Валюта – рубли. Ежемесячный платеж рассчитан исходя из максимальной цены
+                    перепродажи 709 000р.на Renault DUSTER в комплектации Access (Аксесс), 1.6 л, 4х2, МКП5, 114 л.с.
+                    Первоначальный взнос – 376 866 р., cрок кредита – 3 года. Сумма кредита по программе «ПОЕХАЛИ!» –
+                    326 933 р., сумма последнего платежа – 40% стоимости автомобиля. Ставка в кредитном договоре – 14%
+                    годовых на автомобили Renault DUSTER. <br>
+                    Обязательно приобретение в кредит услуг: «Разумное КАСКО» (предоставляет ПАО СК «Росгосстрах»,
+                    лицензия Банка России на осуществление страхования СИ № 0001 от 23.05.2016, бессрочная; СПАО
+                    «ИНГОССТРАХ», лицензия Банка России на осуществление страхования СИ № 0928 от 23.09.2015,
+                    бессрочная; ООО «СК «Согласие», лицензия СИ № 1307 от 25.05.2015, бессрочная или САО «ВСК», лицензия
+                    Банка России на осуществление страхования СИ № 0621 от 11.09.2015, бессрочная) на 1 год, «Защита
+                    бюджета» (предоставляет ООО «СК “КАРДИФ”», лицензия Банка России на осуществление страхования СИ №
+                    4104 от 18.07.2018, бессрочная, тариф — 0,15 % в месяц от суммы кредита) на срок кредита.
+                    Обеспечение по кредиту – залог автомобиля. Не является офертой и действительно до 30.06.2019 на
+                    новые автомобили 2018/2019 года выпуска. Количество автомобилей ограничено. Подробности по т.
+                    8-800-200-80-80, www.renault.ru</p>
+
+                <p>3.1 Кредитор — АО «РН Банк» (лицензия Банка России на осуществление банковских операций № 170,
+                    бессрочная). Первоначальный взнос — от 50% цены автомобиля. Условия, определяющие и влияющие на
+                    величину полной стоимости кредита: сумма кредита – от 100 000 рублей; валюта – рубль РФ; срок
+                    кредита – 24-36 месяцев. Ставка в договоре – 13,5% годовых. Разница между рекламируемой ставкой и
+                    ставкой в договоре компенсируется снижением цены на автомобиль. Обязательно приобретение в кредит
+                    услуг: «Разумное КАСКО» (предоставляет ПАО СК «Росгосстрах», лицензия Банка России на осуществление
+                    страхования СИ № 0001 от 23.05.2016, бессрочная; СПАО «ИНГОССТРАХ», лицензия Банка России на
+                    осуществление страхования СИ № 0928 от 23.09.2015, бессрочная; ООО «СК «Согласие», лицензия СИ №
+                    1307 от 25.05.2015, бессрочная или САО «ВСК», лицензия Банка России на осуществление страхования СИ
+                    № 0621 от 11.09.2015, бессрочная) на 1 год, «Защита бюджета» (предоставляет ООО «СК “КАРДИФ”»,
+                    лицензия Банка России на осуществление страхования СИ № 4104 от 18.07.2018, бессрочная, тариф — 0,15
+                    % в месяц от суммы кредита) на срок кредита. Обеспечение по кредиту — залог автомобиля. Предложение
+                    не является офертой и действует на новые автомобили 2018/2019 года выпуска до 30.06.2019. Количество
+                    автомобилей ограничено. Подробности по т. 8-800-200-80-80, www.renault.ru</p>
+
+                <p>4. Кредитор - АО "РН Банк", лицензия Банка России № 170 (бессрочная). Валюта – рубли. Указанный
+                    ежемесячный платеж рассчитан исходя из максимальной цены перепродажи 944 000 рублей на новые
+                    автомобили Renault KAPTUR в комплектации Life (Лайф) 1,6 4х2 МКП5, 114 л.с. Первоначальный взнос –
+                    508 975 р., срок кредита 3 года, ставка в кредитном договоре 14% годовых. Сумма кредита – 417 446
+                    р., сумма последнего платежа ― 40% стоимости автомобиля. <br>
+                    Обязательно приобретение в кредит услуг: «Разумное КАСКО» (предоставляет ПАО СК «Росгосстрах»,
+                    лицензия Банка России на осуществление страхования СИ № 0001 от 23.05.2016, бессрочная; СПАО
+                    «ИНГОССТРАХ», лицензия Банка России на осуществление страхования СИ № 0928 от 23.09.2015,
+                    бессрочная; ООО «СК «Согласие», лицензия СИ № 1307 от 25.05.2015, бессрочная или САО «ВСК», лицензия
+                    Банка России на осуществление страхования СИ № 0621 от 11.09.2015, бессрочная) на 1 год, «Защита
+                    бюджета» (предоставляет ООО «СК “КАРДИФ”», лицензия Банка России на осуществление страхования СИ №
+                    4104 от 18.07.2018, бессрочная, тариф — 0,15 % в месяц от суммы кредита) на срок кредита.
+                    Обеспечение по кредиту – залог автомобиля. Не является офертой и действительно до 30.06.2019 на
+                    новые автомобили 2018/2019 года выпуска. Количество автомобилей ограничено. Подробности по т.
+                    8-800-200-80-80, www.renault.ru</p>
+
+                <p>5. Кредитор - АО "РН Банк (лицензия Банка России на осуществление банковских операций № 170,
+                    бессрочная). Валюта – рубли. Указанный ежемесячный платеж рассчитан исходя из максимальной цены
+                    перепродажи 1 699 000 рублей на новые автомобили Renault KOLEOS в комплектации Comfort (Комфорт),
+                    2.0 л, 144 л.с. Первоначальный взнос – 904 113 руб., срок кредита 3 года, ставка в кредитном
+                    договоре 12,5% годовых. Сумма кредита – 903 121 руб., сумма последнего платежа ― 40% стоимости
+                    автомобиля. Обязательно приобретение в кредит услуг: «Разумное КАСКО» (предоставляет ПАО СК
+                    «Росгосстрах», лицензия Банка России на осуществление страхования СИ № 0001 от 23.05.2016,
+                    бессрочная; СПАО «ИНГОССТРАХ», лицензия Банка России на осуществление страхования СИ № 0928 от
+                    23.09.2015, бессрочная; ООО «СК «Согласие», лицензия СИ № 1307 от 25.05.2015, бессрочная или САО
+                    «ВСК», лицензия Банка России на осуществление страхования СИ № 0621 от 11.09.2015, бессрочная) на 1
+                    год, «Защита бюджета» (предоставляет ООО «СК “КАРДИФ”», лицензия Банка России на осуществление
+                    страхования СИ № 4104 от 18.07.2018, бессрочная, тариф — 0,15 % в месяц от суммы кредита) на срок
+                    кредита. Обеспечение по кредиту – залог автомобиля. Не является офертой и действительно до
+                    30.06.2019 года на новые автомобили 2018/2019 года выпуска. Количество автомобилей ограничено.
+                    Подробности по т. 8-800-200-80-80, www.renault.ru.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="info">
+        <div class="container">
+            <div class="info_block">
+                <div class="info_block-left">
+                    <p>© 2019 Официальный дилер Renault</p>
+                    <p> © 2019 Renault</p>
+                    <a href="#">Юридическая информация</a>
+                </div>
+                <div class="info_block-right">
+                    <a href="#">Renault Россия</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>

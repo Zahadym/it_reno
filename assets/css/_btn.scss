@@ -1,0 +1,53 @@
+// _btn.scss
+.btn {
+    display: block;
+    font-family: 'Renault-bold';
+    font-weight: 700;
+    font-style: normal;
+    display: block;
+    border-radius: 2px;
+    width: 300px;
+    height: 53px;
+    text-align: center;
+    padding: 18px 41px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #ffcc33;
+
+    transition: background .2s linear;
+    &-2 {
+        width: 100%;
+        text-align: center;
+    }
+    &-width {
+        width: 355px;
+    }
+    &:hover {
+        background-color: #000;
+        color: #ffcc33;
+        
+    }
+    &-intro {
+        width: 250px;
+        height: 50px;
+    }
+    &-model {
+        font-size: 13px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 16px;
+        width: 360px;
+        &-2 {
+            text-align: center;
+            margin: 56px auto 0 auto;
+            display: inline-block;
+        }
+    }
+    &-form {
+        border: none;
+    }
+}
